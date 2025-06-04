@@ -5,16 +5,8 @@ A complete multiplayer combat system for Roblox with server-authoritative valida
 ## Setup Instructions
 
 1. Open Roblox Studio
-2. Run the contents of `TerminalSetupScript.lua` in the command bar
-3. Copy the script files to their respective folders:
-   - `ServerScriptService/Combat/CombatHandler.lua`
-   - `ServerScriptService/Handlers/DamageHandler.lua`
-   - `ServerScriptService/Validation/CombatValidator.lua`
-   - `ReplicatedStorage/CombatData/CombatConstants.lua`
-   - `ReplicatedStorage/Modules/CombatUtilities.lua`
-   - `StarterPlayer/StarterPlayerScripts/Combat/CombatInput.lua`
-   - `StarterPlayer/StarterPlayerScripts/UI/CombatUI.lua`
-   - `StarterPlayer/StarterPlayerScripts/Effects/CombatEffects.lua`
+2. Paste and run `TerminalSetupScript.lua` in the command bar
+3. The script creates all folders, RemoteEvents, animations and scripts automatically.
 
 ## Controls
 
@@ -115,3 +107,8 @@ Edit values in `CombatConstants.lua` to adjust:
 - Critical attacks break through blocks but can be parried
 - Dodge has 200ms of invincibility frames starting 100ms after activation
 - Running requires minimum 10 stamina to start
+### Debug Commands
+- `/debug_mode` - Toggle hitbox visualization and combat info
+- `/spawn_dummies` - Spawn blocking/parrying/idle dummies
+- `/clear_dummies` - Remove test dummies
+
