@@ -60,4 +60,9 @@
 - [ ] Implement debug mode
 - [ ] Add test dummy system
 - [ ] Fix stamina drain rates
-- [ ] Add parry through combos
+## Update 6/4/2025
+- Added `CombatSettingsModule.lua` with official animation IDs and debug flag.
+- Replaced `FixedCompleteSetup.lua` with Ultimate Combat Setup (directional dash, endlag, hitstun, stamina fixes).
+- Added debug commands and test dummy system.
+
+- Updated TerminalSetupScript.lua with complete setup (creates remotes, animations and scripts automatically).
